@@ -1,0 +1,30 @@
+{
+  "name": "yt-scrapper",
+  "version": "1.0.0",
+  "description": "YouTube channel scraper using ScrapeCreators API",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "youtube": "ts-node src/cli.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "youtube",
+    "scraper",
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "dotenv": "^16.3.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "@types/yargs": "^17.0.32",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
